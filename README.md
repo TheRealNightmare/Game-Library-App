@@ -13,3 +13,7 @@
  10. go to your browser.
  11. go to "http://localhost:8080/".
  12. enjoy!!
+
+### Features
+ 1. you can add game.
+ 2. you can update or del that added game.
