@@ -7,7 +7,7 @@
  4. enter "flask run" in terminal.
  5. open another terminal.
  6. now go to frontend dir
- 7. after that u can see another frondend dir.
+ 7. after that u can see another frontend dir.
  8. go to that another frontend dir.
  9. enter " npm run serve".
  10. go to your browser.
