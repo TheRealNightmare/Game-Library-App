@@ -14,26 +14,31 @@ GAMES = [
     {   'id': uuid.uuid4().hex,
         'title':'Fifa-23',
         'genre':'sports',
+        'progress':'10%',
         'played': True,
     },
     {   'id': uuid.uuid4().hex,
         'title':'God of war',
         'genre':'Action',
+        'progress':'10%',
         'played': False,
     },
     {   'id': uuid.uuid4().hex,
         'title':'The last of us',
         'genre':'survival',
+        'progress':'10%',
         'played': True,
     },
     {  'id': uuid.uuid4().hex,
         'title':'The forest',
         'genre':'horror/survival',
+        'progress':'10%',
         'played': False,
     },
     {   'id': uuid.uuid4().hex,
         'title':'mario',
         'genre':'retro',
+        'progress':'10%',
         'played': True,
     }
 
@@ -48,6 +53,7 @@ def all_games():
             'id' : uuid.uuid4().hex,
             'title': post_data.get('title'),
             'genre': post_data.get('genre'),
+            'progress': post_data.get('progress'),
             'played': post_data.get('played')})
         response_object['message'] =  'Game Added!'
     else:
@@ -65,6 +71,7 @@ def single_game(game_id):
             'id' : uuid.uuid4().hex,
             'title': post_data.get('title'),
             'genre': post_data.get('genre'),
+            'progress': post_data.get('progress'),
             'played': post_data.get('played')
         })
         response_object['message'] =  'Game Updated!'
